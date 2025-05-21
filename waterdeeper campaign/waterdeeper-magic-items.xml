@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Waterdeeper Magic Items</name>
+		<update version="0.0.2">
+			<file name="waterdeeper-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/Aurora-Files/main/gabriel-magic-items.xml" />
+		</update>
+	</info>
+	<element name="Conduit of Wild Magic" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_AMULET_CONDUIT_WILD_MAGIC">
+		<description>
+			<p>A small, irregular light blue crystal hangs on a simple leather necklace. You feel crackling arcane energy on your fingertips as you touch it and small blue bolts of light pass from the crystal to your outstretched hand. You feel your connection to the pool of wild magic strengthen and your ability to channel it improves.</p>
+			<p class="indent">The Conduit can hold up to three charges. It gains charges in response to you channelling your wild magic rage in combat - when you roll a natural 19 while raging the Conduit gains a single charge. When you roll a natural 20 while raging the Conduit gains two charges.</p>
+			<p class="indent">You can channel the wild magic in the Conduit to empower your attacks while raging. When you hit with a weapon attack on your turn you can use a bonus action to expend a number of charges of your choice. When you do so, first roll a d4 - on a 1-3 roll a d8 and use the table below to determine the damage type. If you roll a 4 you may choose the damage type. For each charge expended you deal an extra d8 of that damage type.</p>
+			<p class="indent">When fully charged with three charges, the Conduit gives extra precision to your wild magic raging. When raging for the first time in combat you may expend all three Conduit charges and choose the WIld Surge effect that takes effect.</p>
+			<table>
+				<thead>
+					<tr>
+						<td>d8</td>
+						<td>Damage Type</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>1</td>
+					<td>Acid</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Cold</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Fire</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Force</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Lightning</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Poison</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Psychic</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Thunder</td>
+				</tr>
+			</table>
+		</description>
+		<setters>
+			<set name="keywords">amulet, wild, conduit</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Ashbringer" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_SWORD_ASHBRINGER">
+		<description>
+			<p>
+				<i>Igneous soulblade (cursed) +1 greatsword</i>
+			</p>
+			<p>At the end of a long rest make a DC 14 wisdom saving throw. You can voluntarily fail this save. On a failed save, role a d12. Subtract the result from your hitpoint maximum and add the die closest to the result to damage inflicted by the weapon as fire damage, rounded down. For instance, roll 1d10 of extra fire damage on a roll of 11. You cannot determine the consequences should you fail three saves on consecutive days.</p>
+		</description>
+		<setters>
+			<set name="keywords">sword, greatsword, ignites, cursed</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="greatsword">Weapon</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Greatsword</set>
+		</setters>
+	</element>
+	<element name="Sickle of Asari" type="Magic Item" source="Dhurn Toldur Campaign" id="ID_GABRIEL_SICKLE_ASARI">
+		<description>
+			<p>
+				<i>Sickle, Magical weapon</i>
+			</p>
+			<p>When wielded, vines from the handle wrap around forearm and grow delicate leaves and flowers. As you walk, surrounding plants bend towards you and seem to inspect your footprints.</p>
+			<p class="indent">While wielded, you can use an action to cast one of these three spells: <em>Spike Growth</em>,				<em>Plant Growth</em> or <em>Mass Healing Word</em>. Once cast in this way, a charge is used.</p>
+			<p class="indent">The sickle has 3 charges and does not recharge. The spellcasting ability modifier for these spells is +5 and the spell save DC is 13.</p>
+			<p class="indent">
+				<i>At will</i> - transport via plants only to Asari's tree and requires 1 minute casting time during which the caster has to maintain concentration.</p>
+		</description>
+		<setters>
+			<set name="keywords">simple, sickle, ignites, cursed</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="sickle">Weapon</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Legendary</set>
+			<set name="weapon">Sickle</set>
+		</setters>
+	</element>
+</elements>
