@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/main/source.xml" />
+		</update>
+	</info>
+	<element name="mazetree's homebrew" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_DHURN_TOLDUR">
+		<description>
+			<p>All the homebrew creations for the campaigns that mazetree runs and plays in</p>
+		</description>
+		<setters>
+			<set name="abbreviation">mazebrew</set>
+			<set name="image">https://cdn.discordapp.com/attachments/1063111855171711026/1137477354730569898/20230212_064053.jpg</set>
+			<set name="url">https://twitter.com/mazetree_</set>
+			<set name="author" abbreviation="maze" url="https://twitter.com/mazetree_">maze tree</set>
+			<set name="release">20230221</set>
+			<set name="playtest">true</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
