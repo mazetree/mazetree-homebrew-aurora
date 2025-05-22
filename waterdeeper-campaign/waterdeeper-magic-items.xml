@@ -29,7 +29,7 @@
 	</element>
 	<element name="Shadowsteel" type="Magic Item" source="Waterdeeper" id="ID_WATERDEEPER_SWORD_SHADOWSTEEL">
 		<description>
-			<p>The sword formerly wielded by the elven warrior Eirela Dread, this sword is now carried by her daughter, Serafina. As Serafinagrows stronger, so too will the sword. </p>
+			<p>The sword formerly wielded by the elven warrior Eirela Dread, this sword is now carried by her daughter, Serafina. As Serafinagrows stronger, so too will the sword.</p>
 			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
 			<p>In darkness, the unsheathed blade of this sword. sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet.</p>
 		</description>
@@ -44,6 +44,6 @@
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
 		</setters>
 	</element>
-		</setters>
-	</element>
+</setters>
+</element>
 </elements>
