@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Waterdeeper Magic Items</name>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="waterdeeper-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign/waterdeeper-magic-items.xml" />
 		</update>
 	</info>
@@ -44,6 +44,4 @@
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
 		</setters>
 	</element>
-</setters>
-</element>
 </elements>
