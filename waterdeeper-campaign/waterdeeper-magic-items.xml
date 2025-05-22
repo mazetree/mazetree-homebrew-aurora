@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Waterdeeper Magic Items</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="waterdeeper-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign/waterdeeper-magic-items.xml" />
 		</update>
 	</info>
