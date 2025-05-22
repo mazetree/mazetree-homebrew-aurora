@@ -3,11 +3,11 @@
 	<info>
 		<name>Waterdeeper Campaign Content</name>
 		<update version="1.0.0">
-			<file name="waterdeeper-campaign.index" url="https://raw.githubusercontent.com/mazetree/mazetree/main/waterdeeper-campaign.index" />
+			<file name="waterdeeper-campaign.index" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/main/waterdeeper/source.xml" />
-		<file name="waterdeeper-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/main/waterdeeper/waterdeeper-magic-items.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign/source.xml" />
+		<file name="waterdeeper-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign/waterdeeper-magic-items.xml" />
 	</files>
 </index>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.3">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/main/waterdeeper/source.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign/source.xml" />
 		</update>
 	</info>
 	<element name="Waterdeeper" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_WATERDEEPER">
@@ -11,7 +11,7 @@
 		</description>
 		<setters>
 			<set name="abbreviation">WTDR</set>
-			<set name="image">https://cdn.discordapp.com/attachments/1063111855171711026/1137477354730569898/20230212_064053.jpg</set>
+			<set name="image">https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign/waterdeeper-logo.jpg</set>
 			<set name="url">https://twitter.com/mazetree_</set>
 			<set name="author" abbreviation="MAZE" url="https://twitter.com/mazetree_">mazetree</set>
 			<set name="release">20230221</set>
