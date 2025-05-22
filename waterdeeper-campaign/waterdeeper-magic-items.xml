@@ -10,7 +10,7 @@
 		<description>
 			<p>While holding this wand, your spell save DC and spell attack bonus each increase by 1.</p>
 			<p class="indent">The paintbrush has 10 charges, which are used to fuel the spells within it.</p>
-			<p class="indent">With the paintbrush in hand, you can use your action to cast one of the following spells from the brush: <em>colour spray</em> (2 charge or can up-cast by using an additional charges per level), <em>aganazzar's scorcher</em> (3 charges) or <em>major image</em> (4 charges). No components are required. Your spellcasting modifier is used for the attack bonus and saving throws.</p>
+			<p class="indent">With the paintbrush in hand, you can use your action to cast one of the following spells from the brush: <em>colour spray</em> (2 charges or can up-cast by using an additional charge per level), <em>aganazzar's scorcher</em> (3 charges) or <em>major image</em> (4 charges). No components are required. Your spellcasting modifier is used for the attack bonus and saving throws.</p>
 		</description>
 		<setters>
 			<set name="category">Wands</set>
