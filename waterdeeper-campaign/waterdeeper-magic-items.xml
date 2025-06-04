@@ -2,24 +2,25 @@
 <elements>
 	<info>
 		<name>Waterdeeper Magic Items</name>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="waterdeeper-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign/waterdeeper-magic-items.xml" />
 		</update>
 	</info>
-	<element name="Paintbrush of the Priest" type="Magic Item" source="Waterdeeper" id="ID_WATERDEEPER_WAND_PAINTBRUSH_OF_THE_PRIEST">
+	<element name="Amulet of the Painter" type="Magic Item" source="Waterdeeper" id="ID_WATERDEEPER_AMULET_PAINTBRUSH_OF_THE_PRIEST">
 		<description>
-			<p>While holding this wand, your spell save DC and spell attack bonus each increase by 1.</p>
-			<p class="indent">The paintbrush has 10 charges, which are used to fuel the spells within it.</p>
-			<p class="indent">With the paintbrush in hand, you can use your action to cast one of the following spells from the brush: <em>colour spray</em> (2 charges or can up-cast by using an additional charge per level), <em>aganazzar's scorcher</em> (3 charges) or <em>major image</em> (4 charges). No components are required. Your spellcasting modifier is used for the attack bonus and saving throws.</p>
+			<p>While attuned to this amulet and it is on your person, your spell save DC and spell attack bonus each increase by 1.</p>
+			<p class="indent">Additionally when you cast a spell that deals fire damage you may swap the fire damage for radiant damage. You can do this a number of times per long rest equal to your proficiency bonus. O O O</p>
+			<p class="indent">You may also, once per turn, choose to deal 2d6 of additional fire damage to one target of any fire spell you cast or change the area of the spell by 10 ft. You can do this a number of times equal to your proficiency bonus. O O O</p>
+			<p class="indent">Lastly, when combined with the shield of expression, a spectral paintbrush can be drawn from the amulet, and the shield becomes a blank canvas, on which you can "paint" any image you choose as a bonus action.</p>
 		</description>
 		<setters>
-			<set name="category">Wands</set>
+			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="1">1 lb.</set>
-			<set name="slot">onehand</set>
-			<set name="type">Wand</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
 			<set name="attunement" addition="by a cleric of Sune">true</set>
-			<set name="rarity">Rare</set>
+			<set name="rarity">Very Rare</set>
 			<set name="enhancement">1</set>
 		</setters>
 		<rules>
@@ -29,7 +30,7 @@
 	</element>
 	<element name="Shadowsteel" type="Magic Item" source="Waterdeeper" id="ID_WATERDEEPER_SWORD_SHADOWSTEEL">
 		<description>
-			<p>The sword formerly wielded by the elven warrior Eirela Dread, this sword is now carried by her daughter, Serafina. As Serafinagrows stronger, so too will the sword.</p>
+			<p>The sword formerly wielded by the elven warrior Eirela Dread, this sword is now carried by her daughter, Serafina. As Serafina grows stronger, so too will the sword.</p>
 			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
 			<p>In darkness, the unsheathed blade of this sword. sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet.</p>
 		</description>
