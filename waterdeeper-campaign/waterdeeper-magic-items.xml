@@ -1,17 +1,26 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<info>
 		<name>Waterdeeper Magic Items</name>
 		<update version="0.1.0">
-			<file name="waterdeeper-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign/waterdeeper-magic-items.xml" />
+			<file name="waterdeeper-magic-items.xml"
+				url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign/waterdeeper-magic-items.xml" />
 		</update>
 	</info>
-	<element name="Amulet of the Painter" type="Magic Item" source="Waterdeeper" id="ID_WATERDEEPER_AMULET_PAINTBRUSH_OF_THE_PRIEST">
+	<element name="Amulet of the Painter" type="Magic Item" source="Waterdeeper"
+		id="ID_WATERDEEPER_AMULET_PAINTBRUSH_OF_THE_PRIEST">
 		<description>
-			<p>While you wear this amulet, your spell save DC and spell attack bonus each increase by 1.</p>
-			<p class="indent">Additionally when you cast a spell that deals fire damage you may swap the fire damage for radiant damage. You can do this a number of times per long rest equal to your proficiency bonus. O O O</p>
-			<p class="indent">You may also, once per turn, choose to deal 2d6 of additional fire damage to one target of any fire spell you cast or change the area of the spell by 10 ft. You can do this a number of times equal to your proficiency bonus. O O O</p>
-			<p class="indent">Lastly, when combined with the shield of expression, a spectral paintbrush can be drawn from the amulet, and the shield becomes a blank canvas, on which you can "paint" any image you choose as a bonus action.</p>
+			<p>While you wear this amulet, your spell save DC and spell attack bonus each increase
+				by 1.</p>
+			<p class="indent">Additionally when you cast a spell that deals fire damage you may swap
+				the fire damage for radiant damage. You can do this a number of times per long rest
+				equal to your proficiency bonus. O O O</p>
+			<p class="indent">You may also, once per turn, choose to deal 2d6 of additional fire
+				damage to one target of any fire spell you cast or change the area of the spell by
+				10 ft. You can do this a number of times equal to your proficiency bonus. O O O</p>
+			<p class="indent">Lastly, when combined with the shield of expression, a spectral
+				paintbrush can be drawn from the amulet, and the shield becomes a blank canvas, on
+				which you can "paint" any image you choose as a bonus action.</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -28,11 +37,15 @@
 			<stat name="spellcasting:dc" value="1" />
 		</rules>
 	</element>
-	<element name="Shadowsteel" type="Magic Item" source="Waterdeeper" id="ID_WATERDEEPER_SWORD_SHADOWSTEEL">
+	<element name="Shadowsteel" type="Magic Item" source="Waterdeeper"
+		id="ID_WATERDEEPER_SWORD_SHADOWSTEEL">
 		<description>
-			<p>The sword formerly wielded by the elven warrior Eirela Dread, this sword is now carried by her daughter, Serafina. As Serafina grows stronger, so too will the sword.</p>
+			<p>The sword formerly wielded by the elven warrior Eirela Dread, this sword is now
+				carried by her daughter, Serafina. As Serafina grows stronger, so too will the
+				sword.</p>
 			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
-			<p>In darkness, the unsheathed blade of this sword. sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet.</p>
+			<p>In darkness, the unsheathed blade of this sword. sheds moonlight, creating bright
+				light in a 15-foot radius and dim light for an additional 15 feet.</p>
 		</description>
 		<setters>
 			<set name="keywords">sword, paladin</set>
@@ -45,12 +58,17 @@
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
 		</setters>
 	</element>
-	<element name="Shard of Silver +1" type="Magic Item" source="Waterdeeper" id="ID_WATERDEEPER_AMULET_SHARD_OF_SILVER">
+	<element name="Shard of Silver +1" type="Magic Item" source="Waterdeeper"
+		id="ID_WATERDEEPER_AMULET_SHARD_OF_SILVER">
 		<description>
-			<p>This amulet is fashioned from a single shard of resilient extraplanar material originating from the realm of your warlock patron. While you are wearing it, you gain the following benefits:</p>
+			<p>This amulet is fashioned from a single shard of resilient extraplanar material
+				originating from the realm of your warlock patron. While you are wearing it, you
+				gain the following benefits:</p>
 			<ul>
 				<li>You can use the amulet as a spellcasting focus for your warlock spells.</li>
-				<li>You can try to cast a cantrip that you don’t know. The cantrip must be on the warlock spell list, and you must make a DC 10 Charisma (Arcana) check as an action in order to cast. If the check succeeds, you cast the spell.</li>
+				<li>You can try to cast a cantrip that you don’t know. The cantrip must be on the
+					warlock spell list, and you must make a DC 10 Charisma (Arcana) check as an
+					action in order to cast. If the check succeeds, you cast the spell.</li>
 				<li>Your spell save DC and spell attack bonus each increase by 1.</li>
 			</ul>
 		</description>
@@ -69,9 +87,11 @@
 			<stat name="spellcasting:dc" value="1" />
 		</rules>
 	</element>
-		<element name="Sword of Shadows" type="Magic Item" source="Waterdeeper" id="ID_WATERDEEPER_SWORD_SWORD_OF_SHADOWS">
+	<element name="Sword of Shadows" type="Magic Item" source="Waterdeeper"
+		id="ID_WATERDEEPER_SWORD_SWORD_OF_SHADOWS">
 		<description>
-			<p>Once carried by Varek of ship Rethnor, this blade that seems to eat at the light around it. </p>
+			<p>Once carried by Varek of ship Rethnor, this blade that seems to eat at the light
+				around it. </p>
 			<p>On a hit with this weapon, the target takes an extra 1d4 necrotic damage.</p>
 		</description>
 		<setters>
@@ -84,7 +104,8 @@
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
 		</setters>
 	</element>
-		<element name="Ring of Fading Echoes" type="Magic Item" source="Waterdeeper" id="ID_WATERDEEPER_RING_RING_OF_FADING_ECHOES">
+	<element name="Ring of Fading Echoes" type="Magic Item" source="Waterdeeper"
+		id="ID_WATERDEEPER_RING_RING_OF_FADING_ECHOES">
 		<description>
 			<p>Once per day, this ring allows the wearer to cast invisibility. O</p>
 
@@ -95,5 +116,6 @@
 			<set name="type">Ring</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Uncommon</set>
+		</setters>
 	</element>
 </elements>
