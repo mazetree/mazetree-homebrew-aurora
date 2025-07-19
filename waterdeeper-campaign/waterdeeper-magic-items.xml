@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Waterdeeper Magic Items</name>
-		<update version="0.0.9">
+		<update version="0.1.0">
 			<file name="waterdeeper-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign/waterdeeper-magic-items.xml" />
 		</update>
 	</info>
@@ -80,8 +80,20 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="shortsword">Weapon</set>
 			<set name="attunement">false</set>
-			<set name="rarity">uncommon</set>
+			<set name="rarity">Uncommon</set>
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
 		</setters>
+	</element>
+		<element name="Ring of Fading Echoes" type="Magic Item" source="Waterdeeper" id="ID_WATERDEEPER_RING_RING_OF_FADING_ECHOES">
+		<description>
+			<p>Once per day, this ring allows the wearer to cast invisibility. O</p>
+
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
 	</element>
 </elements>
