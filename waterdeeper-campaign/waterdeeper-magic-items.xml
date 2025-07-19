@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Waterdeeper Magic Items</name>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="waterdeeper-magic-items.xml" url="https://raw.githubusercontent.com/mazetree/mazetree-homebrew-aurora/refs/heads/main/waterdeeper-campaign/waterdeeper-magic-items.xml" />
 		</update>
 	</info>
@@ -68,5 +68,20 @@
 			<stat name="spellcasting:attack" value="1" />
 			<stat name="spellcasting:dc" value="1" />
 		</rules>
+	</element>
+		<element name="Sword of Shadows" type="Magic Item" source="Waterdeeper" id="ID_WATERDEEPER_SWORD_SWORD_OF_SHADOWS">
+		<description>
+			<p>Once carried by Varek of ship Rethnor, this blade that seems to eat at the light around it. </p>
+			<p>On a hit with this weapon, the target takes an extra 1d4 necrotic damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">sword, shadows, varek</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="attunement">false</set>
+			<set name="rarity">uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+		</setters>
 	</element>
 </elements>
